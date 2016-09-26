@@ -1,0 +1,25 @@
+{
+  "name": "rhcwebrtc",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "easyrtc": "^1.0.15",
+    "ejs": "^2.5.1",
+    "express": "~3.1.2",
+    "morgan": "~1.7.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "serve-favicon": "~2.3.0",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {},
+  "author": "Aniruddh Khera",
+   "engine": {
+	"node": "4.4.5"
+	}
+}
